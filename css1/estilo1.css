@@ -1,0 +1,116 @@
+.principal 
+{
+    background-color: black;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+    grid-auto-rows: 40px ;
+    justify-content: space-around;
+}
+.secundario1 
+{
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+    grid-column: 1/7;
+}
+.secundario2 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+    grid-column: 1/5;
+}
+.secundario3 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+}
+.secundario4 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+}
+.secundario5 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+    grid-column: 1/3;
+}
+.secundario6 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+    grid-column: 3/7;
+}
+.secundario7 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+    grid-column: 1/5;
+}
+.secundario8 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+}
+.secundario9 {
+    background-color: violet;
+    margin: 2px;
+    border-style: dashed;
+    border-color: white;
+}
+.contenedor1
+{
+    background-color: rgb(43, 192, 226);
+    padding: 10px;
+    display: flex;
+    /*width: 600px;*/
+    height: 300px;
+    flex-direction:row;
+    /*flex-wrap: wrap;*/
+    align-content: space-between;
+}
+.caja   
+{
+    background-color: crimson;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+}
+.caja1
+{
+    background-color: blueviolet;
+    width: 150px;
+    margin: 15px;
+    flex-grow: 1;
+
+}
+.caja2
+{
+    background-color: blueviolet;
+    width: 800px;
+    margin: 15px;
+    flex-grow: 3;
+}
+.caja3
+{
+    background-color: blueviolet;
+    width: -70px;
+    margin: 15px;
+    flex-grow: 5;
+}
+.caja4
+{
+    background-color: deeppink;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 1;    
+}
